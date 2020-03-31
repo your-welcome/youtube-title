@@ -1,7 +1,7 @@
 const axios = require('axios');
 const apiUrl = 'https://www.googleapis.com/youtube/v3';
 
-async function getTitle(videoId, apiKey) {
+module.exports = async function getTitle(videoId, apiKey) {
   try {
     const response = await axios.get(
       apiUrl + '/videos?part=snippet&id=' + videoId + '&key=' + apiKey
