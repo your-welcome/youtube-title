@@ -10,9 +10,6 @@ Example
 ```
 const youtubeTitle = require('youtube-title');
 
-async function (){
-    let title = await youtubeTitle(videoId, apiKey);
-    //result will be a string
-    console.log(title);
-}
+//result will be a string
+let title = await youtubeTitle(videoId, apiKey);
 ```
