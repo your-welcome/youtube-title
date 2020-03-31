@@ -1,6 +1,6 @@
 {
   "name": "youtube-title",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Retrieve video title using video id and YouTube API",
   "main": "index.js",
   "scripts": {
